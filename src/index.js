@@ -21,10 +21,9 @@ class App extends Component {
       return <Spinner message='Please accept the location request!' />;
     }
   }
+
   render() {
-    {
-      this.renderContent();
-    }
+    return this.renderContent();
   }
 }
 
